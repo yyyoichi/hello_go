@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-	fmt.Println("hello")
 	p := parameter()
 	fmt.Println(p.getLine())
 	solve()
