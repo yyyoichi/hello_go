@@ -11,6 +11,7 @@ import (
 func main() {
 	p := parameter()
 	fmt.Println("hello go")
+	fmt.Println("hello golang")
 	fmt.Println(p.getLine())
 	solve()
 }
