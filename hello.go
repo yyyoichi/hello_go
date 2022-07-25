@@ -10,7 +10,7 @@ import (
 
 func main() {
 	p := parameter()
-	fmt.Println(p.getIntSlice())
+	fmt.Println(p.getLine())
 	solve()
 }
 func solve() {
