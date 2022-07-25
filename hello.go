@@ -10,9 +10,8 @@ import (
 
 func main() {
 	p := parameter()
-	fmt.Println("hello go")
-	fmt.Println("hello golang")
-	fmt.Println(p.getLine())
+	ns := p.getIntSlice()
+	fmt.Println(ns[0] + ns[1])
 	solve()
 }
 func solve() {
