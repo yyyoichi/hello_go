@@ -10,6 +10,7 @@ import (
 
 func main() {
 	p := parameter()
+	fmt.Println("hello go")
 	fmt.Println(p.getLine())
 	solve()
 }
