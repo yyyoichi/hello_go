@@ -1,11 +1,11 @@
-package main
+package abc261
 
 import (
 	"example/hello/common"
 	"fmt"
 )
 
-func main() {
+func a() {
 	ns := common.GetIntSlice()
 	l1 := ns[0]
 	r1 := ns[1]
