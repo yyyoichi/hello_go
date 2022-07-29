@@ -1,4 +1,4 @@
-package main
+package abc261
 
 import (
 	"bufio"
